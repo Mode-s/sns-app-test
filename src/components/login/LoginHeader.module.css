@@ -1,0 +1,13 @@
+.header {
+  display: grid;
+  place-items: center;
+  height: 160px;
+  background: linear-gradient(180deg, #99BC85 0%, #E8F5E9 100%);
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1;
+}
