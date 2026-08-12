@@ -10,6 +10,13 @@ export default function PostForm() {
   const router = useRouter();
 
   const MAX_LENGTH = 200;
+  const getCountClassName = () => {
+    if (body.length >= 195) return styles.danger;
+    if (body.length >= 190) return styles.warning;
+    if (body.length >= 180) return styles.caution;
+
+    return '';
+  };
 
   const handleSubmit = (e: SubmitEvent) => {
     e.preventDefault();
@@ -45,7 +52,7 @@ export default function PostForm() {
               placeholder="いまどうしてる？"
               aria-describedby="post-limit"
              />
-            <p className={styles.inputCount} aria-hidden="true">
+            <p className={`${styles.inputCount} ${getCountClassName()}`} aria-hidden="true">
               {body.length}/{MAX_LENGTH}
             </p>
             <p className={styles.srOnly} id="post-limit">最大200文字まで入力できます</p>
