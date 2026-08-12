@@ -1,0 +1,58 @@
+.postItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
+.userName {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.postMeta {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.time {
+  color: #6B7280;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.optionButton {
+  display: block;
+  width: 20px;
+  height: 4px;
+}
+
+.optionButton svg {
+  display: block;
+}
+
+.postText {
+  color: #374151;
+  font-size: 16px;
+  line-height: 1.792; /* 小数点２桁以上なので確認必要 */
+}
