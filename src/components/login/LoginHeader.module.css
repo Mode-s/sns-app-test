@@ -1,6 +1,7 @@
 .header {
   display: grid;
   place-items: center;
+  max-width: 375px;
   height: 160px;
   background: linear-gradient(180deg, #99BC85 0%, #E8F5E9 100%);
 }
