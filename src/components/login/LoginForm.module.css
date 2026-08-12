@@ -41,7 +41,7 @@
   border: 1px solid #E5E7EB;
   border-radius: 12px;
   font-size: 14px;
-  line-height: 1.215;
+  line-height: 1.215; /* 小数点２桁以上なので確認必要 */
 }
 
 .error {
@@ -70,7 +70,7 @@
   color: #6B7280;
   font-size: 13px;
   font-weight: 700;
-  line-height: 1.231;
+  line-height: 1.231; /* 小数点２桁以上なので確認必要 */
   text-decoration: underline;
 }
 
