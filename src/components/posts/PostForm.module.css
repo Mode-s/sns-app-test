@@ -84,3 +84,15 @@
   font-weight: 700;
   line-height: 1.231; /* 小数点２桁以上なので確認必要 */
 }
+
+.caution {
+  color: #d97706;
+}
+
+.warning {
+  color: #ea580c;
+}
+
+.danger {
+  color: #dc2626;
+}
