@@ -1,0 +1,28 @@
+.menu {
+  position: absolute;
+  top: 24px;
+  right: -7px;
+  width: 240px;
+  background-color: #272C2F;
+  border: 1px solid #E5E7ED;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+.deleteButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 17.5px 16px 16px;
+  border-bottom: 1px solid #ffffff;
+  color: #CD3C3C;
+  line-height: 1.188;
+}
+
+.hogeButton {
+  width: 100%;
+  padding: 16px;
+  color: #ffffff;
+  line-height: 1.188;
+}
