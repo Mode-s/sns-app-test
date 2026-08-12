@@ -17,6 +17,20 @@ const posts: Post[] = [
     body: '２件目の投稿です。',
     createdAt: '2026-08-11T14:00:00+09:00',
   },
+  {
+    id: '3',
+    userName: '佐藤花子',
+    avatarUrl: '/images/avatar.png',
+    body: '２件目の投稿です。',
+    createdAt: '2026-08-11T14:00:00+09:00',
+  },
+  {
+    id: '4',
+    userName: '佐藤花子',
+    avatarUrl: '/images/avatar.png',
+    body: '２件目の投稿です。',
+    createdAt: '2026-08-11T14:00:00+09:00',
+  },
 ];
 
 export default function PostList() {
